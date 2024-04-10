@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T13:37:30 IST" name="Suite" finished-at="2024-04-10T13:38:42 IST" duration-ms="72601">
+    <groups>
+    </groups>
+    <test started-at="2024-04-10T13:37:30 IST" name="chromeTest" finished-at="2024-04-10T13:38:17 IST" duration-ms="47353">
+      <class name="testing.cross">
+        <test-method is-config="true" signature="beforetest(java.lang.String)[pri:0, instance:testing.cross@5b03b9fe]" started-at="2024-04-10T13:37:30 IST" name="beforetest" finished-at="2024-04-10T13:37:44 IST" duration-ms="14618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="logintest()[pri:0, instance:testing.cross@5b03b9fe]" started-at="2024-04-10T13:37:44 IST" name="logintest" finished-at="2024-04-10T13:38:16 IST" duration-ms="31472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testing.cross@5b03b9fe]" started-at="2024-04-10T13:38:16 IST" name="teardown" finished-at="2024-04-10T13:38:17 IST" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testing.cross -->
+    </test> <!-- chromeTest -->
+    <test started-at="2024-04-10T13:37:30 IST" name="firefoxtest" finished-at="2024-04-10T13:38:42 IST" duration-ms="72601">
+      <class name="testing.cross">
+        <test-method is-config="true" signature="beforetest(java.lang.String)[pri:0, instance:testing.cross@73e9cf30]" started-at="2024-04-10T13:37:30 IST" name="beforetest" finished-at="2024-04-10T13:38:02 IST" duration-ms="32321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="logintest()[pri:0, instance:testing.cross@73e9cf30]" started-at="2024-04-10T13:38:02 IST" name="logintest" finished-at="2024-04-10T13:38:35 IST" duration-ms="32677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testing.cross@73e9cf30]" started-at="2024-04-10T13:38:35 IST" name="teardown" finished-at="2024-04-10T13:38:42 IST" duration-ms="7575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testing.cross -->
+    </test> <!-- firefoxtest -->
+  </suite> <!-- Suite -->
+</testng-results>
