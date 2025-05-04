@@ -51,7 +51,7 @@ public class login_test extends Base_class {
 		logger.info("Click on the login Button");
 		Thread.sleep(3);
 
-		String Expectedtitle = "Swag Labsss";
+		String Expectedtitle = "Swag Labs";
 		String Actual_title = driver.getTitle();
 		
 		Assert.assertEquals(Actual_title, Expectedtitle);
